@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="testCasesMyStore.TC001_Login_BuyDress" />
+			<class name="testCasesMyStore.TC002_VerifyTitle" />
+			<class name="testCasesMyStore.TC003_CheckBox" />
+			<class name="testCasesMyStore.TC004_Dropdown" />
+			<class name="testCasesMyStore.TC005_BackForwardRefresh" />
+			<class name="testCasesMyStore.TC006_Scroll" />
+			<class name="testCasesMyStore.TC007_Slider" />
+			<class name="testCasesMyStore.TC008_KeyboardEvent" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
